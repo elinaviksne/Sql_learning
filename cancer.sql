@@ -1,2 +1,5 @@
  --	use sakila;
- --	select * from address;   
+ --	select * from address;
+ 
+ use sql_store;
+ select * from customers;
