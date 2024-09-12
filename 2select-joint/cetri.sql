@@ -24,3 +24,11 @@ FROM
     customers c
 RIGHT JOIN orders o
 	USING (customer_id);
+    
+-- uzdevums
+select 
+	* 
+from 
+	products 
+left join order_items 
+	using (product_id);
